@@ -1,0 +1,11 @@
+[package]
+name = "ribbon"
+version = "0.1.0"
+edition = "2024"
+description = "Externalized procedural variables for arbitrary-precision counting"
+
+[dependencies]
+
+[[bin]]
+name = "ribbon"
+path = "src/main.rs"
