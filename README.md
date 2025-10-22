@@ -67,7 +67,7 @@ While a number 'value' may be 'too big' to store, such as u512, the representati
 # Memory Topic Outline:
 1. stack is ~2x faster than heap but has a potential ceiling and maybe more importantly has a larger than usually needed pre-allocated buffer.
 
-Hex is lower than decimal, faster than binary, but uses progressively less memory to store larger numbers.
+Hex is lower than decimal, faster than binary, but uses the least memory to store numbers.
 
 ### Counting to N: we need approximately...
 Binary:   ⌈log₂(N)⌉ bytes     (most bytes)
